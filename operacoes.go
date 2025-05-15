@@ -1,16 +1,12 @@
 package main
-func soma(x, y int) int{
-	return x + y
-}
+ 
+import "fmt"
+type Jogador struct{
+	nome string
+	vida int
+	nivel int
 
-func subtrair (x, y int) int{
-	return x - y
-}
-
-func multiplicaçao(x, y int) int {
-	return x * y
-}
-
-func divisao(x, y int) int {
-	return x / y
+func main (){
+j1:= Jogador {"Logan",100,3}
+fmt.Println(j1.nome)
 }
